@@ -1,0 +1,19 @@
+{
+    "name": "daymenu/design-mode",
+    "description": "设计模式",
+    "authors": [
+        {
+            "name": "hanjian",
+            "email": "hanjian2018@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Strategy\\": "strategy",
+            "Singleton\\": "singleton"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
